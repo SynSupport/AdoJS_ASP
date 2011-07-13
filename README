@@ -1,0 +1,15 @@
+Author:	Patrick Crever
+	patrick.crever@synergex.com
+
+Minimum Synergy Version 
+7.3.1b
+
+Description:
+JScript/ADO on ASP examples.  Two examples are provided; AdoJS_Select.asp and AdoJS_Update.asp.
+
+AdoJS_Select.asp and AdoJS_Update.asp are entirely different from the VB examples. Both JavaScript examples contain ADO code within the HTML BODY section. This is the only similarity between the two. AdoJS_Select.asp sets the Response.Buffer = TRUE and performs the ADO operation in a single server-side code block. AdoJS_Update.asp performs the operation with the server-side ADO operations inter-mixed with HTML tags. The select example connects to the database, fills a recordset with the contents of the Plants table, and returns the recordset in an HTML TABLE. The update example fetches the "Sour Gum" rows from the Plants table, display the current values, updates the price by 10%, re-fetches and displays the new values.
+
+As with the AdoVB examples, copy the examples to your web server, make sure there is an xfODBC DSN and load the example via the browser.
+
+
+*** Code is for use 'AS IS' ***
